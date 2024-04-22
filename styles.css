@@ -1,0 +1,222 @@
+/* Sera CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+font-family: monospace;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+    font-size: large;
+    color: #2e2e2e;
+  }
+ 
+  
+  header {
+    background-image: url('Gambar/header.png');
+    background-position: center;
+    color: #323131;
+    padding:30px 0;
+  }
+  
+  header h1 {
+    float: left;
+  }
+  
+  header nav {
+    float: right;
+  }
+  
+  header nav ul {
+    list-style: none;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-left: 20px;
+  }
+  
+  header nav ul li a {
+    color: #ff0000;
+    text-decoration: none;
+  }
+
+  .custom-header {
+    font-size: 40px;
+    display: inline-block;
+    background: #c9c9c9;
+    color: #393939;
+    padding: 11px 30px;
+    border-radius: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  #hero {
+    background: #b96d6d;
+    text-align: center;
+    padding: 180px 0;
+    background-image: url('Gambar/BG.png'); /* url bg */
+    background-color: #ffffff; /* Warna latar belakang jika gambar tidak tersedia atau tidak terlihat */
+    background-size: cover; /* Atur ukuran gambar agar menutupi seluruh area */
+    background-repeat: no-repeat; /* Atur agar gambar tidak diulang */
+  }
+  
+  #hero h2 {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background: #cd929f;
+    color: #fff;
+    padding: 13px 20px;
+    border-radius: 40px;
+   
+  }
+
+   .btn2 {
+   display: inline-block;
+   background-color: #ccc;
+   color: #323131;
+   padding: 15px 23px;
+   border-radius:30px ;
+   font-size: 30px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+   .btn3 {
+    display: inline-block;
+    background-color: #e0e0e0;
+    color: #323131;
+    padding: 10px;
+    border-radius:30px ;
+    font-size: x-large;
+   }
+
+   .btn4 {
+    display: inline-block;
+    background-color: #5e5a5a;
+    color: #fefefe;
+    padding: 30px;
+    border-radius:15px ;
+    
+   }
+
+
+  #about {
+    background: #dfd9dc;
+    background-image: url(Gambar/BGABOUT.png);
+    background-position: center;
+    padding-top: 90px;
+    text-align: center;
+   }
+  
+  #about {
+    color:#323030;
+  }
+
+  #portfolio {
+    background: #f4f4f4;
+    text-align: center;
+    background-image: url('Gambar/BG.png');
+    background-color: #f0f0f0; /* Warna latar belakang jika gambar tidak tersedia atau tidak terlihat */
+    background-size: cover; /* Atur ukuran gambar agar menutupi seluruh area */
+    background-repeat: no-repeat; /* Atur agar gambar tidak diulang */
+    padding: 160px;
+  }
+  
+  .portfolio-item {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  .portfolio-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 13%;
+  }
+
+  .portfolio-item2 {
+    width: 300px;
+    height:300px;
+    border-radius: 3%;
+  }
+
+  #article {
+    background: #efdee3;
+    text-align: left;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+
+ .article {
+    text-align: left;
+    
+    }
+
+    .article1 {
+      text-align: right;
+      
+      }
+ 
+ 
+  
+ #contact {
+    background: #efdee3;
+    background-image: url('Gambar/about.png'); /* URL gambar latar belakang */
+    background-position: center;
+    text-align: left;
+    padding-top: 140px;
+    padding-bottom: 140px;
+
+  }
+  
+  form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  form label {
+    display: block;
+    margin-bottom: -10px;
+  }
+  
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 20%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button[type="submit"] {
+    font-family: monospace;
+    font-size: large;
+    background: #fffefe;
+    color: #323030;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 30pxpx;
+    cursor: pointer;
+  }
+  
+  footer {
+    background: #848484;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+  }
+
+ 
